@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+}
+
+/* font style changes go here*/
+* h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+* ul, ol, p {
+    font-family: 'Century Gothic';
+}
+
+
+html, body {
+    width: 100%;
+    
+/*ALL CLASSES HAVE A SPECIFIC ELEMENT AT THE END TO ADD EXTRA CONTROL TO STYLING THROUGHOUT THE HTML*/
+}
+body {
+    background-color:lightblue;
+}
+
+.Card {
+    background-color:lightblue;
+    width: 50%;
+    height: 170%;
+    margin: 5% auto;
+    border-radius: .8rem;
+}
+
+hr {
+    background-color: black;
+    height: 12px;
+
+}
+
+
+/* Name-Title-img controls all of the img portion of my portfolio*/
+.Name-Title-img img {
+    width: 20%;
+    border-radius: 10rem;
+    margin-top: 10%;
+    margin-left: 40%;
+}
+
+.Name-Title-img h1,h3 {
+    text-align: center;
+    margin-top: 3% ;
+}
+.Name-Title-img h3 {
+    color:white;
+    font-size: 25px;
+}
+.Name-Title-img h1 {
+    color: black;
+    font-size: 45px ;
+}
+.Name-Title-img {
+    margin-bottom: 10%;
+}
+
+
+
+/* introduction-card classes controls all of the info portion of my portfolio*/
+.introduction-card {
+    background-color: cornflowerblue;
+    margin-top: 10%;
+    padding: 10% 0 10% 20%;
+    display: flex;
+}
+
+
+/*changes between violet and red when hovering over text */
+.introduction-card a {
+    color: violet;
+}
+.introduction-card a:hover {
+    color: red;
+}
+.introduction-card p {
+    text-align: left;
+    width: 59%;
+    padding-left: 20%;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+
+
+/* bio-card classes controls all of the info portion of my portfolio*/
+.bio-card {
+    background-color: turquoise;
+    padding: 10% 0 10% 10%;
+    display: flex;
+}
+.bio-card h2 {
+    display: block;
+    margin-left: 10%;
+}
+.bio-card ul {
+    padding-left: 18%;
+    font-size: 20px ;
+    
+}
+
+
+
+
+/* contact-card classes controls all of the info portion of my portfolio*/
+.contact-card {
+    background-color: teal;
+    padding: 10% 0 17% 20%;
+    border-bottom-left-radius: .8rem;
+    border-bottom-right-radius: .8rem;
+    display: flex;
+}
+.contact-card div {
+    padding-left: 15%;
+}
+
+/*created one class to control the styling of all my social links*/
+.all-socials {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    text-indent: 10px;
+    
+}
+.social {
+    color: black;
+    padding: 3px 6px;
+    margin: 2%;
+}
+
+footer  p {
+    text-align: center;
+    margin-bottom: 1%;
+}
+footer {
+    background-color: tomato;
+    padding: 1%;
+}
